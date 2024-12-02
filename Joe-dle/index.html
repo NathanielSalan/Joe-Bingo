@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+
+<!--test-->
+
+<!--end test-->
+
+
+
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Joe.dle</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body onload="begin()">
+
+		<!-- This is the index HTML for Joedle.
+		v0.0
+
+		Please remember to comment what your element does and provide a brief description.
+		Keep the HTML clean by doing all the element changes via CSS. (Use Id, Class)
+		
+		When in doubt, use W3Schools or ask for help.
+
+		Feel free to credit yourself in the description!
+		Finally, Have fun! :D
+		-->
+	
+		<!-- Script-->
+		<script type="text/javascript" src="scriptFile.js"></script>
+		
+		<div class="container">
+			<!-- This is the main div. Everything must be added under this.-->
+			
+			<div id="title">
+				<!--This is the title
+				
+				Click on the title for a special prize! :O
+				-->
+				
+				<a class="title" href="javascript:popup('I love JavaScript!')"><h1 class="title">Joedle<h1></a>
+				<a class="title" href="javascript:popup('Web Design is my passion!!')"><p class="title">An ICS-118 Bingo!</p></a>
+				
+				<div class="menu">
+					<!-- <button type="button" id="start-reset" onclick="startReset()">Start the game!</button> -->
+				</div>
+			</div>
+			
+			<!-- Bingo Board
+				Bingo board is build as a metrix[4,4] where 0 is the start.
+			--->
+			<div class="flex-container">
+				<!--Row 0 | This is the top row-->
+				
+				<div id="row-1">
+					<button type="button" class="cellButtons" id="cell-00" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-01" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-02" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-03" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-04" onclick="buttonTrigger(this.id)" value="untap"> </button>
+				</div>
+				
+				<!--Row 1-->
+				<div id="row-2">
+					<button type="button" class="cellButtons" id="cell-10" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-11" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-12" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-13" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-14" onclick="buttonTrigger(this.id)" value="untap"> </button>
+				</div>
+				
+				<!--Row 2-->
+				<div id="row-3">
+					<button type="button" class="cellButtons" id="cell-20" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-21" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-22" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-23" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-24" onclick="buttonTrigger(this.id)" value="untap"> </button>
+				</div>
+				
+				<!--Row 3-->
+				<div id="row-4">
+					<button type="button" class="cellButtons" id="cell-30" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-31" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-32" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-33" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-34" onclick="buttonTrigger(this.id)" value="untap"> </button>
+				</div>
+				
+				<!--Row 4-->
+				<div id="row-5">
+					<button type="button" class="cellButtons" id="cell-40" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-41" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-42" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-43" onclick="buttonTrigger(this.id)" value="untap"> </button>
+					<button type="button" class="cellButtons" id="cell-44" onclick="buttonTrigger(this.id)" value="untap"> </button>
+				</div>
+
+			</div>
+			
+			<!--Scoreboard-->
+		
+		
+		
+		
+		
+		
+		
+		<!-- This is the end main div. Everything must be added above this.-->
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,115 @@
+/* This is the CSS for Joedle.
+v0.0
+
+Please remember to comment what your CSS does.
+Give a brief description.
+
+Guideline:
+- Do not use global variables (eg. h1, p, a)
+- Use Ids (#) and Class(.)
+- You can call specific variables in a class/id by putting variables before class/id:
+(eg. "p.title {}")
+
+Feel free to credit yourself in the description!
+*/
+
+/*General CSS*/
+
+*	{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+/*tharin- adjusted colour */
+body	{
+	font-family: 'Arial', sans-serif;
+	background-color: #31473A;
+	padding: 20px;
+}
+
+.container	{
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #EDF4F2;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+
+/* Add your stuff here */
+
+/* CSS for Title.
+@Nathan
+*/
+
+.title	{
+	text-align: center;
+	vertical-align: middle;
+}
+
+h1.title	{
+	font-size: 60px;
+	font-size-adjust: 0.5;
+}
+
+a.title	{
+	text-decoration: none !important;
+	color: Black;
+}
+
+/* CSS for the Start/Reset Button.
+@Nathan
+*/
+#start-reset	{
+	
+	
+	left: 50%;
+	padding: 10px;
+
+}
+
+/* CSS for the bingo buttons
+@Nathan
+-Tharin adjusted padding
+*/
+.cellButtons	{
+	max-width:100px;
+	max-height:100px;
+	width:50vw;
+	height:50vw;
+	/*padding:60px;*/
+	
+	border-radius:8px;
+}
+
+
+/* Toggled state 
+
+@Tharin
+*/
+.cellButtons.active {
+	background-color: #28a745;
+	border-radius:8px;
+}
+
+.flex-container	{
+	margin-top: 10px;
+}
+
+.flex-container > div	{
+	display:flex;
+	justify-content: center;
+	width:100%;
+	gap: 1px;
+	margin-bottom:1px;
+	
+}
+
+.buttonText	{
+	font-size:1vw;
+	color:black;
+	left:25%;
+}
